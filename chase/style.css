@@ -1,0 +1,9 @@
+body {
+font-family: 'Open Sans', Helvetica, sans-serif;
+}
+div#main {
+width: 500px;
+margin: 0px auto;
+padding-top: 100px;
+text-align: center;
+}
