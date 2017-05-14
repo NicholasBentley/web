@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'proxima_nova_rgregular';
+    src: url('../fonts/proximanova-regular-webfont.woff2') format('woff2'),
+         url('../fonts/proximanova-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.profile {
+    color: #ffffff;
+    background-color: #000000;
+    height: 100vh;
+}
+.prof-content {
+    text-align: center;
+}
+.prof-desc {
+    margin-top: 30px;
+    font-family: 'proxima_nova_rgregular', Helvetica, sans-serif;
+}
+.prof-desc p {
+    margin-top: 30px;
+    line-height: 1.8em;
+}
+.prof-desc a {
+    border-bottom: 1px dotted #ffffff;
+    color: #ffffff;
+    text-decoration: none;
+}
+.prof-desc a:hover {
+    text-decoration: none;
+}
+.prof-desc a:visited {
+    text-decoration: none;
+}
+.prof-picture {
+    margin-top: 50px;
+}
+.img-fluid {
+    border-radius: 50%;
+}
+.copyright {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+}
