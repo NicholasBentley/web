@@ -3,11 +3,13 @@
 	background-color: #D74034;
 	height: 100vh;
 }
-.main-bio {
-	padding: 50px;
+.main-content-area {
+	padding-left: 50px;
+	padding-top: 15px;
 }
 .main-nav {
-	padding-bottom: 15px;
+	padding-top: 50px;
+	padding-left: 50px;
 }
 .main-nav h3 {
 	display: inline;
