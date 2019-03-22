@@ -7,8 +7,8 @@
 
 }
 .profile {
-    color: #ffffff;
-    background-color: #000000;
+    color: #363636;
+    background-color: #F1EDEE;
     height: 100vh;
 }
 .prof-content {
@@ -23,8 +23,8 @@
     line-height: 1.8em;
 }
 .prof-desc a {
-    border-bottom: 1px dotted #ffffff;
-    color: #ffffff;
+    border-bottom: 1px dotted #363636;
+    color: #363636;
     text-decoration: none;
 }
 .prof-desc a:hover {
@@ -47,3 +47,27 @@
     padding: 1rem;
     text-align: center;
 }
+/*=== Social icons ===*/
+.social-icons a {
+    opacity: 1;
+    margin-left: 9px;
+    margin-right: 9px;
+    filter: alpha(opacity=1);
+    color: #363636;
+    font-size: 1.3em;
+    position: relative;
+    bottom: 0;
+    border-bottom: none;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  .social-icons a:hover {
+    opacity: 1;
+    filter: alpha(opacity=1);
+    color: #363636;
+    bottom: 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
