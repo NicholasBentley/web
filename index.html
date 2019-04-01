@@ -9,6 +9,18 @@
     <meta name="description" content="">
     <meta name="author" content="Nicholas Bentley">
 
+    <!--Script to display / hide actual site url-->
+    <script type="text/javascript">
+        function actuaSite() {
+            var primarySite = "nbent.ly"
+            var currentSite = window.location.hostname
+            if(currentSite != primarySite) {
+                document.getElementById('secondary-site').style="display:none;"
+            }
+        }
+        window.onload = codeAddress;
+    </script>
+
     <title>Nicholas Bentley</title>
 
     <link rel="icon" 
@@ -87,6 +99,9 @@
                     </div>
                     <div class="content-item contact" id="descr3">
                         <p>You can reach him via email: <a class="site-link" href="mailto:n@nbent.ly">n@nbent.ly</a>.</p>
+                    </div>
+                    <div class="content-item" id="secondary-site">
+                        If you'd like to share this website, be sure to share the primary url, which is <a class="site-link" href="//nbent.ly">nbent.ly</a>.
                     </div>
                 </div>
             </div>
