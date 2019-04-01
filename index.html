@@ -14,8 +14,8 @@
         function checkSite() {
             var primarySite = "nbent.ly"
             var currentSite = window.location.hostname
-            if(currentSite = primarySite) {
-                document.getElementById('secondary-site').style="display:none;"
+            if(currentSite != primarySite) {
+                document.getElementById('secondary-site').style="display:block;"
             }
         }
         window.onload = checkSite;
@@ -100,7 +100,7 @@
                     <div class="content-item contact" id="descr3">
                         <p>You can reach him via email: <a class="site-link" href="mailto:n@nbent.ly">n@nbent.ly</a>.</p>
                     </div>
-                    <div class="content-item" id="secondary-site">
+                    <div class="content-item" style="display:none;" id="secondary-site">
                         If you'd like to share this website, be sure to share the primary url, which is <a class="site-link" href="//nbent.ly">nbent.ly</a>.
                     </div>
                 </div>
