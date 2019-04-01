@@ -3,6 +3,9 @@
 	background-color: #D74034;
 	height: 100vh;
 }
+.projects {
+	display: none;
+}
 .contact {
 	display: none;
 }
@@ -14,7 +17,7 @@
 }
 .main-nav h3 {
 	display: inline;
-	margin-right: 20px;
+	margin-right: 15px;
 	opacity: .6;
 }
 .main-nav h3.active {
@@ -40,4 +43,13 @@
 .main-nav a:link {
 	text-decoration: none;
 	color: #ffffff;
+}
+.mb-break {
+	display: none;
+}
+@media only screen and (max-width: 640px) and (orientation: portrait) {
+    .mb-break {
+		display: block;
+		margin: 10px 0px 0px 0px;
+	}
 }
