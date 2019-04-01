@@ -9,18 +9,6 @@
     <meta name="description" content="">
     <meta name="author" content="Nicholas Bentley">
 
-    <!--Script to display / hide actual site url-->
-    <script type="text/javascript">
-        function checkSite() {
-            var primarySite = "nbent.ly"
-            var currentSite = window.location.hostname
-            if(currentSite != primarySite) {
-                document.getElementById('secondary-site').style="display:none;"
-            }
-        }
-        window.onload = checkSite;
-    </script>
-
     <title>Nicholas Bentley</title>
 
     <link rel="icon" 
@@ -109,5 +97,17 @@
     </div>
 
 </body>
+
+<!--Script to display / hide actual site url-->
+<script type="text/javascript">
+    function checkSite() {
+        var primarySite = "nbent.ly"
+        var currentSite = window.location.hostname
+        if(currentSite != primarySite) {
+            document.getElementById('secondary-site').style="display:none;"
+        }
+    }
+    window.onload = checkSite;
+</script>
 
 </html>
