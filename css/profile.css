@@ -44,8 +44,26 @@
     bottom: 0;
     right: 0;
     left: 0;
+    padding: 2rem;
+    text-align: center;
+    font-size: 0.8em;
+}
+.below-copyright {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
     padding: 1rem;
     text-align: center;
+    font-size: 0.5em;
+}
+.below-copyright a {
+    border-bottom: 1px dotted #363636;
+    color: #363636;
+    text-decoration: none;
+}
+.below-copyright a:hover {
+    text-decoration: none;
 }
 /*=== Social icons ===*/
 .social-icons a {
