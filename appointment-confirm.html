@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head profile="https://www.w3.org/2005/10/profile">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Nicholas Bentley">
+
+    <!--Script to display / hide actual site url-->
+    <script type="text/javascript">
+        function checkSite() {
+            var primarySite = "nbent.ly"
+            var currentSite = window.location.hostname
+            if(currentSite != primarySite) {
+                document.getElementById('secondary-site').style="display:block;"
+            }
+        }
+        window.onload = checkSite;
+    </script>
+
+    <title>Nicholas Bentley</title>
+
+    <link rel="icon" 
+      type="image/png" 
+      href="img/prof_favicon.png">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+
+    <script src="js/main.js" type="text/javascript"></script>
+
+    <!-- Custom CSS -->
+    <link href="css/profile.css" rel="stylesheet">
+    <link href="css/content.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 profile">
+                <div class="prof-content">
+                    <div class="prof-picture">
+                        <img class="img-fluid" width="200px" height="200px" src="img/prof.jpg" />
+                    </div>
+                    <div class="prof-desc">
+                    <h2>Nicholas Bentley</h2>
+                    <p>
+                    <a href="//merus.it">Entrepreneur</a><br />
+                    <a href="//eit.umd.edu">Developer</a><br />
+                    <a href="//analytics.umd.edu">Data Guru</a><br />
+                    <a href="//terrapinworks.umd.edu">3D printing enthusiast</a><br />
+                    <a href="//steelers.com">Steelers</a>, <a href="//dcunited.com">D.C. United fan</a><br />
+                    Friend
+                    </p>
+                    <p class="social-icons">
+                    <a href="//twitter.com/nbentley_"><i class="fa fa-twitter"></i></a>
+                    <a href="//facebook.com/njbentley"><i class="fa fa-facebook"></i></a>
+                    <a href="//linkedin.com/in/njbentley"><i class="fa fa-linkedin"></i></a>
+                    <a href="//instagram.com/nbent.ly"><i class="fa fa-instagram"></i></a>
+                    <a href="mailto:n@nbent.ly"><i class="fa fa-envelope"></i></a>
+                    </p>
+                    </div>
+                    <div class="copyright">
+                    &copy; <script>document.write(new Date().getFullYear())</script> Nicholas Bentley
+                    </div>
+                    <div class="below-copyright">
+                        Made with ⚡ in <a href="//www.collegeparkmd.gov">College Park, MD</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 main-content">
+                <div class="main-bio">
+                    <div class="main-nav" id="menu">
+                    <a href="#bio" data-descr="descr1" data-link="link1"><h3 name="bio" id="link1" class="active menulink" style="border-bottom: none;">Thanks, <script>$("span").text($.urlParam('invitee_first_name'));</script>! You're booked.</h3></a>
+                    <div class="mb-break"></div>
+                    </div>
+                    <div class="content-item bio" id="descr1">
+                        <p>Here's the details:</p>
+                        <p>Date & Time: <script>$("span").text($.urlParam('event_start_time'));</script></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
