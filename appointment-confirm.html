@@ -86,12 +86,12 @@
             <div class="col-md-8 main-content">
                 <div class="main-bio">
                     <div class="main-nav" id="menu">
-                    <a href="#bio" data-descr="descr1" data-link="link1"><h3 name="bio" id="link1" class="active menulink" style="border-bottom: none;">Thanks, <script>$("span").text($.urlParam('invitee_full_name'));</script>! You're booked.</h3></a>
+                    <a href="#bio" data-descr="descr1" data-link="link1"><h3 name="bio" id="link1" class="active menulink" style="border-bottom: none;">Thanks, <span id="personName"><script>$("span").text($.urlParam('invitee_first_name'));</script></span>! You're booked.</h3></a>
                     <div class="mb-break"></div>
                     </div>
                     <div class="content-item bio" id="descr1">
                         <p>Here's the details:</p>
-                        <p>Date & Time: <script>$("span").text($.urlParam('event_start_time'));</script></p>
+                        <p>Date & Time: </p>
                     </div>
                 </div>
             </div>
