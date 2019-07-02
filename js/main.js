@@ -36,5 +36,5 @@ function getUrlParam(parameter, defaultvalue){
 }
 
 var calInviteeName = getUrlParam('invitee_first_name','for scheduling');
-var calInviteeEmail = getUrlParam('invitee_email','the email address you provided');
+var calInviteeEmail = decodeURIComponent(getUrlParam('invitee_email','the email address you provided'));
 var calInviteeDate = decodeURIComponent(getUrlParam('event_start_time'));
