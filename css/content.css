@@ -1,6 +1,15 @@
 a {
 	color: #ffffff;
 }
+a:hover {
+	color: #ffffff;
+}
+a:visited {
+	color: #ffffff;
+}
+a:link {
+	color: #ffffff;
+}
 .main-content {
 	color: #ffffff;
 	background-color: #D74034;
