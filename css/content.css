@@ -78,7 +78,7 @@ a.site-link {
 		height: 100vh;
 	}
 }
-@media only screen and (max-width: 640px) and (orientation: landscape) {
+@media only screen and (max-width: 737px) and (orientation: landscape) {
     .mb-break {
 		display: block;
 		margin: 10px 0px 0px 0px;

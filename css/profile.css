@@ -100,22 +100,3 @@ h1 {
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
   }
-  @media only screen and (max-width: 640px) and (orientation: landscape) {
-    .mb-break {
-		display: block;
-		margin: 10px 0px 0px 0px;
-	}
-	.main-bio {
-		padding: 50px 20px 50px 20px;
-	}
-	.main-content {
-		color: #ffffff;
-		background-color: #D74034;
-		height: 160vh !important;
-	}
-	.profile {
-		color: #363636;
-		background-color: #F1EDEE;
-		height: 160vh !important;
-	}
-}
