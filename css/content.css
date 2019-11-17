@@ -1,13 +1,13 @@
-a {
+.main-nav a {
 	color: #ffffff;
 }
-a:hover {
+.main-nav a:hover {
 	color: #ffffff;
 }
-a:visited {
+.main-nav a:visited {
 	color: #ffffff;
 }
-a:link {
+.main-nav a:link {
 	color: #ffffff;
 }
 .main-content {
