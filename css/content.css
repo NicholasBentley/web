@@ -59,7 +59,7 @@ a.site-link {
 .mb-break {
 	display: none;
 }
-@media only screen and (max-width: 640px) /* and (orientation: portrait) */ {
+@media only screen and (max-width: 640px) and (orientation: portrait) {
     .mb-break {
 		display: block;
 		margin: 10px 0px 0px 0px;
@@ -78,7 +78,7 @@ a.site-link {
 		height: 100vh;
 	}
 }
-@media only screen and (device-width: 414px) and (device-height: 896px)  and (orientation: landscape) {
+@media only screen and (max-width: 640px) and (orientation: landscape) {
     .mb-break {
 		display: block;
 		margin: 10px 0px 0px 0px;
