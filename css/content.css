@@ -78,3 +78,22 @@ a.site-link {
 		height: 100vh;
 	}
 }
+@media only screen and (device-width: 414px) and (device-height: 896px)  and (orientation: landscape) {
+    .mb-break {
+		display: block;
+		margin: 10px 0px 0px 0px;
+	}
+	.main-bio {
+		padding: 50px 20px 50px 20px;
+	}
+	.main-content {
+		color: #ffffff;
+		background-color: #D74034;
+		height: 1000px;
+	}
+	.profile {
+		color: #363636;
+		background-color: #F1EDEE;
+		height: 1000px;
+	}
+}
