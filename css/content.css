@@ -37,17 +37,17 @@
 	opacity: 1;
 	transition: 0.2s;
 }
-.site-link a:hover {
+a.site-link:hover {
 	border-bottom: 1px solid #ffffff;
 	text-decoration: none;
 	color: #ffffff;
 }
-.site-link a:visited {
+a.site-link:visited {
 	border-bottom: 1px dotted #ffffff;
 	text-decoration: none;
 	color: #ffffff;
 }
-.site-link a:link {
+a.site-link:link {
 	border-bottom: 1px dotted #ffffff;
 	text-decoration: none;
 	color: #ffffff;
