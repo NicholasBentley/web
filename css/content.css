@@ -104,3 +104,29 @@ a.site-link {
 		height: 170vh !important;
 	}
 }
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+	  /* .mb-break {
+		display: block;
+		margin: 10px 0px 0px 0px;
+	} */
+	.container-fluid {
+		padding: env(safe-area-inset, 0px);
+	}
+	.main-bio {
+		padding: 50px 20px 50px 20px;
+	}
+	.main-content {
+		color: #ffffff;
+		background-color: #D74034;
+		height: 170vh !important;
+	}
+	.profile {
+		color: #363636;
+		background-color: #F1EDEE;
+		height: 170vh !important;
+	}
+  }
