@@ -67,4 +67,14 @@ a.site-link {
 	.main-bio {
 		padding: 50px 20px 50px 20px;
 	}
+	.main-content {
+		color: #ffffff;
+		background-color: #D74034;
+		height: 120vh;
+	}
+	.profile {
+		color: #363636;
+		background-color: #F1EDEE;
+		height: 120vh;
+	}
 }
