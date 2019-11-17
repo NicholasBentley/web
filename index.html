@@ -70,7 +70,8 @@
                     </div>
                     <div class="copyright">
                         &copy;
-                        <!-- Get the year programatically, because no one ever updates the copyright year -->
+                        <!-- Get the year programatically, because no one ever updates the copyright year. Pull in jQuery prior to doing this. -->
+                        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
                         <script>$('.copyright').append(new Date().getFullYear())</script> Nicholas Bentley
                     </div>
                     <div class="below-copyright">
@@ -154,9 +155,6 @@
 <link rel="icon" type="image/png" alt="Profile picture of Nick Bentley" href="img/prof_favicon.png">
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-    crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
     integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
     crossorigin="anonymous"></script>
