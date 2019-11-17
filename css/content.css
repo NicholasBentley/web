@@ -79,10 +79,10 @@ a.site-link {
 	}
 }
 @media only screen and (max-width: 737px) and (orientation: landscape) {
-    .mb-break {
+    /* .mb-break {
 		display: block;
 		margin: 10px 0px 0px 0px;
-	}
+	} */
 	.main-bio {
 		padding: 50px 20px 50px 20px;
 	}
