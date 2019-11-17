@@ -20,6 +20,7 @@
             var currentSite = window.location.hostname
             if (currentSite != primarySite) {
                 document.getElementById('secondary-site').style = "display:block;"
+                window.location.replace('https://nbent.ly');
             }
         }
         window.onload = checkSite;
