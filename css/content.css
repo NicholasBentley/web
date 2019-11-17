@@ -38,7 +38,7 @@
 	transition: 0.2s;
 }
 .site-link:hover {
-	border-bottom: 1px dotted #ffffff;
+	border-bottom: 1px solid #ffffff;
 	text-decoration: none;
 	color: #ffffff;
 }
