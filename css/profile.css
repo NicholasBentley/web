@@ -28,7 +28,7 @@ h1 {
 }
 .prof-desc a {
     border-bottom: 1px dotted #363636;
-    transition: border-bottom 0.2s ease-in-out;
+    transition: border 1s ease-in-out;
     color: #363636;
     text-decoration: none;
 }
