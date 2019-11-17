@@ -33,7 +33,9 @@ h1 {
 }
 .prof-desc a:hover {
     text-decoration: none;
+    border-bottom: 1px solid #363636;
     color: #363636;
+    transition: border-bottom 0.2s ease-in-out;
 }
 .prof-desc a:visited {
     text-decoration: none;
