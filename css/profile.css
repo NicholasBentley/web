@@ -33,9 +33,11 @@ h1 {
 }
 .prof-desc a:hover {
     text-decoration: none;
+    color: #363636;
 }
 .prof-desc a:visited {
     text-decoration: none;
+    color: #363636;
 }
 .prof-picture {
     margin-top: 50px;
