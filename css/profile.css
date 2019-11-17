@@ -42,6 +42,10 @@ h1 {
 }
 .img-fluid {
     border-radius: 50%;
+    transform: scale(0.2);
+}
+.img-fluid:hover {
+    transition: transform 1s eas-in-out;
 }
 .copyright {
     position: absolute;
