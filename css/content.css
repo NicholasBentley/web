@@ -70,11 +70,11 @@ a.site-link {
 	.main-content {
 		color: #ffffff;
 		background-color: #D74034;
-		height: 120vh;
+		height: 120vh !important;
 	}
 	.profile {
 		color: #363636;
 		background-color: #F1EDEE;
-		height: 120vh;
+		height: 120vh !important;
 	}
 }
