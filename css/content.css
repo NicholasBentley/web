@@ -64,7 +64,7 @@ a.site-link {
 		display: block;
 		margin: 10px 0px 0px 0px;
 	}
-	.col-md-8 {
-		max-width: 80% !important;
+	.main-bio {
+		padding: 50px 0px 50px 0px;
 	}
 }
