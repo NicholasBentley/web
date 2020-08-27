@@ -1,0 +1,76 @@
+==================================================================
+https://keybase.io/nickbentley
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://nbent.ly
+  * I am nickbentley (https://keybase.io/nickbentley) on keybase.
+  * I have a public key with fingerprint C06A E3CE 36C4 DB8B FA5A  1C92 1315 B24A 9092 CEA3
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120c96a6bb62dba8650a088680cbc6e9e2c6ecbda5cbec011f5bfdeb32cba7a31ff0a",
+      "fingerprint": "c06ae3ce36c4db8bfa5a1c921315b24a9092cea3",
+      "host": "keybase.io",
+      "key_id": "1315b24a9092cea3",
+      "kid": "0101aeb48db013420f334ee0e49a0f904b83f805f72a6ff1638587751c8da4f9c1d00a",
+      "uid": "1a5161fbca3f64fbc2bea8ae72a09a19",
+      "username": "nickbentley"
+    },
+    "service": {
+      "hostname": "nbent.ly",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1598498149,
+  "expire_in": 157680000,
+  "prev": "e1227a3b7057e43f6fb0833590917d171508c732f200bb2a30ffa174690bd174",
+  "seqno": 16,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMNuAnicbVJ9UJRFGAcqGBDTQiBrGrh30AFF232/7n2PaIYy04pR48tMwd33duGN
+8+64O+CIr2EcGyYFFcgbkjyJmD505KIhgqmZMEBmkI+Q1BCbGj7EkSRjyhmNas/i
+v/aPfWZ3f7/f83uefXpXPhQQFhgR2f7ysbrhlsDBHk9hQM5L60gph23mEs5UyuWT
+B4FYzMTpysnXzZyJA5AHmiojGWOZN2OkyBJAQFFkBWhYk4lKeLZr2IwkDRMNQEgl
+TM0EC7yGkREJkFKAuESO6tZc4rA7dKuLyWpARkTQiCBrohkrmCIJQU3loQAlzItI
+BSqvESQwYp7N6Wcwcxg5yWbdxu7YIeeBvf/BL/sGEBEsKmYMoCDygAqCSAggoooA
+VYGIFYEqQKJGHsmUQllQJMVolKCmmJFIVQ2awQPfhf/mQRKUIcUaEqgssshjghRE
+GBuoCKp+oJM4rOgAYWirruVjYnVZWEPLEzn2UKRrxN9bfzHLID9is6WEUe0Om8um
+2SzsNs/lsjtNfparxO6HFROc859ADtatZtZGxigiDqdus3ImyJCaS/crQklVRFWB
+oprIEbddd5Ac3Y+QjOyz2PLnIUVMkkCeZz+DjUAyEpEVRDFQBEFiTYRGMzRCCSia
+UeApDwDGPBIApQgaRVkFmD2LnL+kAquNacvMJ8plmk4914pchQ7ClZ/v2ftwQGBY
+QPAjQf75CggLXb08dRfJqqW1XUur2kM6is8kRPUveG2v79FrW//s/dYRJVymI+r1
+3vpnqvO9UwUFA8NTvg0z7lz81ZfRGQGfWrdVXHvu1Po3eo6uM7U+ntl9Tkg/XXDZ
+tBiz+r30EF98avonV91nroykdX/+YUn5pc6Y2N166YRnJi734uB0150fdswrWa2d
+B3c2WoT3DWMXDsZ/02yYjPgjLrXLEtv1QvPSsxXH589ewtO7I0vgX2Glm8JbbiTf
+OzyWmLdlfu7dytrsm6Z9W7Mmc488Neqc+L0hadwLerX1c0vltGwms3JD18rqhqs2
+35GqJw0xX/R5aZyW0t0cuOZw+IUQd0TUqZTOn+eyGwunMmd/yYwJfz7s/NsnbqfB
+pPK6tqEZmjSykBD83Tt3q8atA+cOlV6v7mta2VZ1a+y1m/TvhRupKXOeE3UNH8R9
+NuArivIY2kOzTu6I770/53w09BhnOHE/LaM21ABKZk9ugzO39u3vd9fETgfdGzcW
+Fzcejd7bWfTYb9Y3Fzfernq12XdNHjwVUvCR54x76U55S/KwLXJHDzz3ozLkjVpx
+ZdfOtjVq3SugJqh464qF6ik0Gj2lVLXV9Bl8pw/FLHrKuod9HbMJlU9/XxScnbn/
++PCLZ7fv2VVa1uHtPzCanEHX1vNBTU3CFm/92MRPjRvfGs9raEN37Z5NFestHz/R
+8LV7smB7/a+dE0P/AHS8yFU=
+=wI9p
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/nickbentley
+
+==================================================================
+
