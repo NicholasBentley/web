@@ -24,7 +24,7 @@ jobs:
         SOURCE_DIR: 'public'      # optional: defaults to entire repository
     
     - name: invalidate cloudfront cache
-      uses: chetan/invalidate-cloudfront-action@master
+    - uses: chetan/invalidate-cloudfront-action@master
       env:
         DISTRIBUTION: ${{ secrets.DISTRIBUTION }}
         PATHS: '/*'
