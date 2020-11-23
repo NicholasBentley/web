@@ -9,10 +9,10 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    - id: checkout code
+    - name: checkout code
       uses: actions/checkout@master
 
-    - id: push to s3
+    - name: push to s3
       uses: jakejarvis/s3-sync-action@master
       with:
         args: --acl public-read --follow-symlinks --delete
@@ -23,7 +23,7 @@ jobs:
         AWS_REGION: 'us-east-1'   # optional: defaults to us-east-1
         SOURCE_DIR: 'public'      # optional: defaults to entire repository
     
-    - id: invalidate cloudfront cache
+    - name: invalidate cloudfront cache
       uses: chetan/invalidate-cloudfront-action@master
       env:
         DISTRIBUTION: ${{ secrets.DISTRIBUTION }}
